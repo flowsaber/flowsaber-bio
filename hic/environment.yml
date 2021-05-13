@@ -1,0 +1,20 @@
+name: hictools
+channels:
+  - conda-forge
+  - bioconda
+  - hcc
+dependencies:
+  - python >= 3.7
+  - pip
+  - flowsaber
+  - pbgzip
+  - bwa = 0.7.17
+  - samtools
+  - pairtools
+  - cooler
+  - biopython
+  - pgzip
+  - fastqc
+  - multiqc
+  - pip:
+      - multiqc
